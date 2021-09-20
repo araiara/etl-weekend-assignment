@@ -25,7 +25,7 @@ Steps involved in the transformation:
   - Add values to the null data in the updated_date column with the corresponding value in the created_date column.
 
 ## Load
-# dim_location
+### dim_location
 Steps
 - Empty the dim_location dimension table
 - Get the distinct town from standard customer table along with the country name.
@@ -33,7 +33,7 @@ Steps
 
 ![](./img/dim_location.PNG)
 
-# dim_customer
+### dim_customer
 Steps
 - Empty the dim_customer dimension table
 - Get the all the data from standard customer table; however, map the town and country with the dim_location dimension table.
@@ -41,7 +41,7 @@ Steps
 
 ![](./img/dim_customer.PNG)
 
-# dim_category
+### dim_category
 Steps
 - Empty the dim_category dimension table
 - Get the distinct category from standard product table.
@@ -49,7 +49,7 @@ Steps
 
 ![](./img/dim_category.PNG)
 
-# dim_product
+### dim_product
 Steps
 - Empty the dim_product dimension table
 - Get the all the data from standard product table; however, map the categoryy with the dim_category dimension table.
@@ -57,7 +57,7 @@ Steps
 
 ![](./img/dim_product.PNG)
 
-# dim_bill
+### dim_bill
 Steps
 - Empty the dim_bill dimension table
 - Get the bill details from the standard bill table.
@@ -65,7 +65,7 @@ Steps
 
 ![](./img/dim_bill.PNG)
 
-# fact_sales
+### fact_sales
 Steps
 - Empty the fact_sales fact table
 - Get the all the data from standard sales table.
