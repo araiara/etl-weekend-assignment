@@ -26,7 +26,6 @@ Steps involved in the transformation:
 
 ## Load
 ### dim_location
-Steps
 - Empty the dim_location dimension table
 - Get the distinct town from standard customer table along with the country name.
 - Insert the new data in the dim_location dimension table.
@@ -34,7 +33,6 @@ Steps
 ![](./img/dim_location.PNG)
 
 ### dim_customer
-Steps
 - Empty the dim_customer dimension table
 - Get the all the data from standard customer table; however, map the town and country with the dim_location dimension table.
 - Insert the new data in the dim_customer dimension table.
@@ -42,7 +40,6 @@ Steps
 ![](./img/dim_customer.PNG)
 
 ### dim_category
-Steps
 - Empty the dim_category dimension table
 - Get the distinct category from standard product table.
 - Insert the new data in the dim_category dimension table.
@@ -50,7 +47,6 @@ Steps
 ![](./img/dim_category.PNG)
 
 ### dim_product
-Steps
 - Empty the dim_product dimension table
 - Get the all the data from standard product table; however, map the categoryy with the dim_category dimension table.
 - Insert the new data in the dim_product dimension table.
@@ -58,7 +54,6 @@ Steps
 ![](./img/dim_product.PNG)
 
 ### dim_bill
-Steps
 - Empty the dim_bill dimension table
 - Get the bill details from the standard bill table.
 - Insert the new data in the dim_bill dimension table.
@@ -66,7 +61,6 @@ Steps
 ![](./img/dim_bill.PNG)
 
 ### fact_sales
-Steps
 - Empty the fact_sales fact table
 - Get the all the data from standard sales table.
 - Insert the new data in the fact_sales fact table.
