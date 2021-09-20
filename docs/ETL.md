@@ -23,3 +23,22 @@ Steps involved in the transformation:
   - Add values to the null data in the updated_by column with the corresponding value in the created_by column.
   - Apply title case to the created_by and updated_by columns.
   - Add values to the null data in the updated_date column with the corresponding value in the created_date column.
+
+## Load
+# dim_location
+![](./img/dim_location.PNG)
+
+# dim_customer
+![](./img/dim_customer.PNG)
+
+# dim_category
+![](./img/dim_category.PNG)
+
+# dim_product
+![](./img/dim_product.PNG)
+
+# dim_bill
+![](./img/dim_bill.PNG)
+
+# fact_sales
+![](./img/fact_sales.PNG)
